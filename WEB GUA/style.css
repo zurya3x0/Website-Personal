@@ -1,0 +1,253 @@
+*,
+hmtl {
+    padding: 0;
+    margin:0;
+    scroll-behavior:smooth;
+}
+
+/* Navbar start */
+.container-navbar {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.au-ahh {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-weight: 300;
+
+}
+
+
+.ul-navbar {
+    height: 7vh;;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+    letter-spacing: 1px;
+    gap: 20px;
+}   
+
+
+.li-navbar {
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+
+
+.a-navbar {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.a-navbar:hover {
+    background-color: blueviolet;   
+    margin: 20px;
+    text-decoration: none;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    color: white;
+}
+
+
+
+
+.img-linav {
+    width: 7vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* Navbar end */
+
+
+/* content 1 start*/
+.container-content {
+    position: relative;
+    width: 100%;
+    height: 93vh;
+    background-color: #818a5d;
+    z-index: 1;
+}
+
+    /* Text content 1 */
+.nama-content {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    color: white;
+
+
+}
+.dev-name {
+    font-size: 100px;
+    /*googlefont=*/
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-left: 30%;
+    
+}
+
+.job-name {
+    font-size: 20px;
+    /*googlefont=*/
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-left: 60%;
+    text-align: right;
+}
+
+.hi-name {
+    margin-left: -120px;
+    font-size: 50px;
+    font-weight: 900;
+}
+    /* Text content 1 end */
+
+.petunjuk {
+    position: absolute;
+    bottom: 5vh;
+    right: 10vh;
+    color: white;
+    width: 25px;
+}
+
+.img-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: auto;
+    height: 100vh;
+    transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+    -moz-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    -o-transform: translateX(30%);
+
+}
+
+/* content 1 end */
+
+
+
+/* content 2 start */
+.container-utama2{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.container-content2  {
+    padding: 10vh;
+}
+
+
+.fotogua {
+    outline: 20px solid white;
+    height: 80vh;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+
+
+    /* bio data start */
+
+.biodata-utama {
+    padding: 5vh;
+}
+.text-data1 {
+    font-size: 100px;
+}
+.text-data2 {
+    font-size: 20px;
+}
+.text-data3 {
+    margin-top: 4vh;
+    font-size: 40px;
+}
+
+td {
+    padding-left: 50px;
+}
+
+
+.biodata {
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    width: 60%;
+    padding: 10px
+}
+             /* icon button sosial media */
+
+.li-icon {
+    list-style: none;
+    display: flex;
+}
+
+.a-icon {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+
+.ul-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-button {
+    width: 40px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+    background-color: blueviolet;
+    width: 45px;
+    padding: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
